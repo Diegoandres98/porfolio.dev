@@ -1,15 +1,15 @@
 ---
 import GitHub from "./icons/GitHub.astro"
-import NextJS from "./icons/NextJS.astro"
+import React from "./icons/React.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
 const TAGS = {
   NEXT: {
-    name: "Next.js",
+    name: "React.js",
     class: "bg-black text-white",
-    icon: NextJS,
+    icon: React,
   },
   TAILWIND: {
     name: "Tailwind CSS",
@@ -19,22 +19,22 @@ const TAGS = {
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "CartaLab - Juntas Accion Comunal",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
+      "Este sistema se encarga de ayudar a organizar a los presidentes de junta de accion comunal de los barrios, el poder gestionar la documentacion, como cartas firmadas, este genera una firma digital basada en un token unico, que permite generar un codido QR, por cual verificar la autencidad de la misma",
+    link: "https://cartalabapp.web.app/",
+    github: "https://github.com/Diegoandres98/CartaLabWeb",
+    image: "/projects/cartaLab.webp",
     tags: [TAGS.NEXT, TAGS.TAILWIND],
   },
-  {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
-    description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
-  },
+  // {
+  //   title: "AdventJS - Retos de programación con JavaScript y TypeScript",
+  //   description:
+  //     "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
+  //   link: "https://adventjs.dev",
+  //   image: "/projects/adventjs.webp",
+  //   tags: [TAGS.NEXT, TAGS.TAILWIND],
+  // },
 ]
 ---
 
